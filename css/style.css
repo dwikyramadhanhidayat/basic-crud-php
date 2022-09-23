@@ -1,0 +1,69 @@
+form#search {
+    margin-left: 280px;
+    margin-bottom: 10px;
+}
+table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 70vw;
+}
+caption {
+    caption-side: bottom;
+    margin-top: 15px;
+}
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+th {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+.container a {
+    text-decoration: none;
+}
+.container a p {
+    width: 200px;
+    height: 30px;
+    margin-left: 280px;
+    background-color: #3867D6;
+    color: #FFFFFF;
+    line-height: 30px;
+    text-align: center;
+}
+.container a p:hover {
+    width: 200px;
+    height: 30px;
+    margin-left: 280px;
+    background-color: #4B7BEC;
+    color: #FFFFFF;
+    line-height: 30px;
+    text-align: center;
+}
+.container table{
+    margin: 0 auto;
+}
+.container table tr td a#edit {
+    background-color: #FF9F1A;
+    color: white;
+    padding: 5px 20px;
+}
+.container table tr td a#edit:hover {
+    background-color: #FFAF40;
+    color: white;
+    padding: 5px 20px;
+}
+.container table tr td a#delete {
+    background-color: #FF3838;
+    color: white;
+    padding: 5px 20px;
+}
+.container table tr td a#delete:hover {
+    background-color: #FF4D4D;
+    color: white;
+    padding: 5px 20px;
+}
